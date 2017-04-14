@@ -6,8 +6,8 @@ var app_myenergy = {
                              // it is used to scale the share of UK Wind power
 
     config: {
-        "use":{"type":"feed", "autoname":"use", "engine":"5,6", "description":"House or building use in watts"},
-        "solar":{"optional":true, "type":"feed", "autoname":"solar", "engine":"5,6", "description":"Solar pv generation in watts"},
+        "use":{"type":"feed", "autoname":"use", "engine":"5,6,11", "description":"House or building use in watts"},
+        "solar":{"optional":true, "type":"feed", "autoname":"solar", "engine":"5,6,11", "description":"Solar pv generation in watts"},
         "windkwh":{"type":"value", "default":2000, "name": "kWh Wind", "description":"kWh of wind energy bought annually"}
     },
     

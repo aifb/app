@@ -1,12 +1,12 @@
 var app_mysolarpv = {
 
     config: {
-        "use":{"type":"feed", "autoname":"use", "engine":"5", "description":"House or building use in watts"},
-        "solar":{"type":"feed", "autoname":"solar", "engine":"5", "description":"Solar pv generation in watts"},
+        "use":{"type":"feed", "autoname":"use", "engine":"5,11", "description":"House or building use in watts"},
+        "solar":{"type":"feed", "autoname":"solar", "engine":"5,11", "description":"Solar pv generation in watts"},
         //"export":{"type":"feed", "autoname":"export", "engine":5, "description":"Exported solar in watts"},
-        "use_kwh":{"optional":true, "type":"feed", "autoname":"use_kwh", "engine":5, "description":"Cumulative use in kWh"},
-        "solar_kwh":{"optional":true, "type":"feed", "autoname":"solar_kwh", "engine":5, "description":"Cumulative solar generation in kWh"},
-        "import_kwh":{"optional":true, "type":"feed", "autoname":"import_kwh", "engine":5, "description":"Cumulative grid import in kWh"},
+        "use_kwh":{"optional":true, "type":"feed", "autoname":"use_kwh", "engine":"5,11", "description":"Cumulative use in kWh"},
+        "solar_kwh":{"optional":true, "type":"feed", "autoname":"solar_kwh", "engine":"5,11", "description":"Cumulative solar generation in kWh"},
+        "import_kwh":{"optional":true, "type":"feed", "autoname":"import_kwh", "engine":"5,11", "description":"Cumulative grid import in kWh"},
         //"import_unitcost":{"type":"value", "default":0.1508, "name": "Import unit cost", "description":"Unit cost of imported grid electricity"}
     },
     
